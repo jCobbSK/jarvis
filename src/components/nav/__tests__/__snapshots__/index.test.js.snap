@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav renders all provided attributes 1`] = `
+<ul
+  class="nav"
+>
+  <li
+    class="project"
+  >
+    TEST_NAME
+  </li>
+  <li
+    class="version"
+  >
+    1.0
+  </li>
+  <li
+    class="makers"
+  >
+    <span>
+      TEST_NAME
+    </span>
+    <a
+      class="nav-link"
+      href="mailto:a@b.com"
+    >
+      a@b.com
+    </a>
+    <a
+      class="nav-link"
+      href="http://"
+      target="_blank"
+    >
+      http://
+    </a>
+  </li>
+  <li
+    class="snippets"
+  >
+    snippets
+  </li>
+</ul>
+`;
+
+exports[`Nav renders default attributes 1`] = `
+<ul
+  class="nav"
+>
+  <li
+    class="project"
+  />
+  <li
+    class="version"
+  >
+    NaN
+  </li>
+  <li
+    class="makers"
+  >
+    <span />
+  </li>
+  <li
+    class="snippets"
+  >
+    snippets
+  </li>
+</ul>
+`;
